@@ -4,7 +4,7 @@
 
 Teeth Naming has a naming standard for 32 model teeth models (enumerated by ISO naming standard) (Figure 1\) . Dental professionals, in writing or speech, use several different dental notation systems for associating information with a specific tooth. The three most common systems are the FDI World Dental Federation notation (ISO 3950), the Universal Numbering System, and the Palmer notation. The FDI notation is used worldwide, and the Universal is used widely in the United States. The FDI notation can be easily adapted to computerized charting. 
 
-| ![][image1] |  |  |  |
+| ![][image1] (./img/1.png) |  |  |  |
 | :---: | ----- | ----- | ----- |
 | **Figure  1\. ISO standard of teeth Naming \[70\]** |  |  |  |
 
@@ -20,17 +20,17 @@ The dataset contains the following (Figure 2):
 
 Figure 3 shows the original 3D models used to capture the images \[75\].
 
-| ![][image2] |  |  |  |
+| ![][image2](./img/2.png) |  |  |  |
 | :---: | ----- | ----- | ----- |
 | **Figure  2\. Generated Image Dataset Sample Contents** |  |  |  |
 
-| ![][image3] |  |  |  |
+| ![][image3](./img/3.png) |  |  |  |
 | ----- | ----- | ----- | ----- |
 | **Figure  3\. The original 3D graphical teeth models used in the generation of the dataset are  free 3D models available online \[75\]** |  |  |  |
 
 This dataset is developed using Unity 3D. Our Custom Dataset (we call it “**TeethNet” )** : our custom dataset has a **similar metadata** structure to the original **Shapenet** dataset \[78\] (Figure 4\) .
 
-| ![][image4] |  |  |  |
+| ![][image4](./img/4.png) |  |  |  |
 | :---: | ----- | ----- | ----- |
 | **Figure 4\. Directory structure of Generated TeethNet dataset** |  |  |  |
 
@@ -40,7 +40,7 @@ In addition to two important files that were in the shapenet dataset, we made th
 
  2- The **rendering\_metadata.txt** file, which contains 5 columns azimuth, elevation, in-plane rotation, distance, and field of view. As in shapenet  [^1] . Each teeth images have the corresponding binVox 3d voxel model as in the following (Figure 5\)
 
-| ![][image5] |  |  |  |
+| ![][image5](./img/5.png) |  |  |  |
 | :---: | ----- | ----- | ----- |
 | **Figure  5\. TeethNet dataset Voxel Folder** |  |  |  |
 
@@ -48,14 +48,14 @@ this custom dataset is divided into 2 sections:
 
 1. **Single Teeth views**: which contains 4 categories of generations for each teeth (Figure 6). The Dataset is available at : [https://drive.google.com/drive/u/1/folders/1iQZg4KQCwBmXcEJoK\_94JC-xAzNinM5O](https://drive.google.com/drive/u/1/folders/1iQZg4KQCwBmXcEJoK_94JC-xAzNinM5O) 
 
-| ![][image6] | ![][image7] | ![][image8] | ![][image9] |
+| ![][image6] (./img/6.png) |
 | ----- | ----- | ----- | ----- |
 | Normal with Texture | normal without texture | Negative without texture | Negative with texture |
 | **Figure  6\. Types of Generated images in TeethNet (Single View)** |  |  |  |
 
 2. **Multi Teeth  views**: which contains multiple teeth in the same view to be closer to real life captures images (Figure 7). The Dataset is available at: [https://drive.google.com/drive/folders/1USIvZNF3GoODrOCMT4wCYawt1-WeBTJQ?usp=sharing](https://drive.google.com/drive/folders/1USIvZNF3GoODrOCMT4wCYawt1-WeBTJQ?usp=sharing) 
 
-| ![][image10] | ![][image11] | ![][image12] | ![][image13] |
+| ![][image10] (./img/7.png) |
 | ----- | ----- | ----- | ----- |
 | Normal with Texture | normal without texture | Negative without texture | Negative with texture |
 | **Figure  7\. Types of Generated images in TeethNet (Multi-View)** |  |  |  |
